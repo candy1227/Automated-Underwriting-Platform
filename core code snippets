@@ -1,0 +1,26 @@
+We'll use common Python libraries. You'll need to install them:
+pip install opencv-python scikit-image pytesseract pdfplumber spacy pandas numpy scikit-learn tensorflow (or pytorch)
+
+1. requirements.txt
+
+# Core Libraries
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+# Document Processing
+pdfplumber
+Pillow # PIL fork, often installed with other libs
+pytesseract
+# Computer Vision
+opencv-python
+scikit-image
+# NLP (if using rule-based parsing or custom models)
+spacy
+# Deep Learning (for advanced CV/NLP or multimodal)
+tensorflow # or pytorch
+transformers # for pre-trained models
+# FastAPI (for API, if you want a web service)
+fastapi
+uvicorn
